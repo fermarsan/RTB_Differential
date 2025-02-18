@@ -27,4 +27,8 @@ y = np.insert(robot.x_hist[:,1], 0, robot.x0[1])
 
 plt.plot(x, y, marker='.')
 plt.axis('equal')
+plt.xlabel('x')
+plt.ylabel('y')
+plt.title('Robot location')
 
+plt.show()

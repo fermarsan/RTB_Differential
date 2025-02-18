@@ -19,3 +19,10 @@ X(t) = \left[ x(t), \ y(t), \ \theta(t) \right]
 $$
 
 You can see the complete documentation in [ Robotics Toolbox for Python, Differential steering](https://petercorke.github.io/robotics-toolbox-python/mobile-vehicle-diffsteer.html)
+
+### Installing Python robotics toolbox
+Python robotics toolbox require numpy 1.2x
+
+```
+pip install numpy==1.26.4 roboticstoolbox-python
+```

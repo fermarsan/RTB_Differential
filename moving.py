@@ -25,4 +25,4 @@ plt.xlabel('x')
 plt.ylabel('y')
 plt.title('Robot location')
 
-plt.show()
+plt.savefig('moving.png')

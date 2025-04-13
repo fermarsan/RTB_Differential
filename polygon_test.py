@@ -21,6 +21,8 @@ plt.imshow(map2, cmap='binary')
 
 a = VehiclePolygon2(shape=cir2poly(radius=20, num_points=8), color="orange")
 
-robot = DiffSteer2(x0=(50, 150, 0), animation=a)
+robot = DiffSteer2(x0=(50, 150, 0), 
+                   animation=a,
+                   workspace=[0, map2.shape[1], 0, map2.shape[0]])
 robot.control = (25, 25)
 robot.run(animate=True)
